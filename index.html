@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entrepreneurs Woods - Your Partner in Business Success">
+    <meta name="keywords" content="business consulting, startup funding, entrepreneurship, business growth">
+    <meta name="author" content="Entrepreneurs Woods">
+    <meta property="og:title" content="Entrepreneurs Woods | Business Growth Partners">
+    <meta property="og:description" content="Empowering entrepreneurs to grow their businesses through strategic consulting and funding solutions">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌲</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero-image {
+            background-image: url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-600">Entrepreneurs Woods</div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-800 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="#about" class="text-gray-800 hover:text-blue-600 transition duration-300">About</a>
+                    <a href="services.html" class="text-gray-800 hover:text-blue-600 transition duration-300">Services</a>
+                    <a href="#portfolio" class="text-gray-800 hover:text-blue-600 transition duration-300">Portfolio</a>
+                    <a href="#team" class="text-gray-800 hover:text-blue-600 transition duration-300">Team</a>
+                    <a href="#contact" class="text-gray-800 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="https://linkedin.com/company/entrepreneurswoods" class="text-gray-600 hover:text-blue-600">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-image h-screen flex items-center pt-16">
+        <div class="container mx-auto px-6">
+            <div class="bg-black bg-opacity-50 p-12 rounded-lg max-w-2xl">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Empowering Entrepreneurs to Grow</h1>
+                <p class="text-xl text-gray-200 mb-8">Your Partner in Business Success</p>
+                <div class="flex space-x-4">
+                    <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">Our Services</a>
+                    <a href="#contact" class="bg-white hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-lg font-medium transition duration-300">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile menu (hidden by default) -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white w-full px-6 py-3 shadow-lg">
+        <div class="flex flex-col space-y-4">
+            <a href="#home" class="text-gray-800 hover:text-blue-600 transition duration-300">Home</a>
+            <a href="#about" class="text-gray-800 hover:text-blue-600 transition duration-300">About</a>
+            <a href="services.html" class="text-gray-800 hover:text-blue-600 transition duration-300">Services</a>
+            <a href="#portfolio" class="text-gray-800 hover:text-blue-600 transition duration-300">Portfolio</a>
+            <a href="#team" class="text-gray-800 hover:text-blue-600 transition duration-300">Team</a>
+            <a href="#contact" class="text-gray-800 hover:text-blue-600 transition duration-300">Contact</a>
+            <div class="flex space-x-4 pt-4">
+                <a href="https://linkedin.com/company/entrepreneurswoods" class="text-gray-600 hover:text-blue-600">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Preview -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chess text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Business Strategy</h3>
+                    <p class="text-gray-600">Comprehensive planning to scale your business with actionable growth strategies.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-hand-holding-usd text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Funding Solutions</h3>
+                    <p class="text-gray-600">Access to capital and investment opportunities tailored to your business needs.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bullhorn text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Marketing & Branding</h3>
+                    <p class="text-gray-600">Digital and traditional marketing strategies to amplify your brand presence.</p>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="services.html" class="text-blue-600 font-medium hover:underline">View all services →</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Entrepreneurs Woods</h3>
+                    <p class="text-gray-400">Empowering businesses to reach their full potential through strategic partnerships.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>123 Business Street</li>
+                        <li>City, Country</li>
+                        <li>info@entrepreneurswoods.com</li>
+                        <li>+123-456-7890</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://linkedin.com/company/entrepreneurswoods" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Entrepreneurs Woods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
