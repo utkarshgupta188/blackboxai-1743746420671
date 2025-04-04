@@ -1,9 +1,4 @@
 
-Built by https://www.blackbox.ai
-
----
-
-```markdown
 # Entrepreneurs Woods
 
 Welcome to the Entrepreneurs Woods project! This web application is designed to empower entrepreneurs and businesses by providing strategic consulting and funding solutions. Whether you're a startup looking for guidance or an established firm seeking growth strategies, we have you covered.
@@ -18,7 +13,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/entrepreneurs-woods.git
+   git clone https://github.com/yourusername/ewsite.git
    ```
 
 2. Navigate into the project directory:
